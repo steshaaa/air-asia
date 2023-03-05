@@ -80,7 +80,7 @@ img {
   max-height: 100%;
 }
 .wrapper__main {
-  background: url(/img/1.png), url(/img/2.png);
+  background: url(/../img/1.png), url(/../img/2.png);
   background-position: top center, bottom center;
   background-repeat: no-repeat;
   min-height: 1920px;
