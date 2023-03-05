@@ -1,0 +1,38 @@
+.contacts {
+  margin-top: 29px;
+  float: right;
+}
+.contacts__info {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  text-align: end;
+}
+.contacts__phone {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 35px;
+  text-align: end;
+}
+.menu__item {
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 54px;
+  top: -19px;
+}
+.logo {
+  margin-top: 29px;
+}
+nav {
+  vertical-align: 13px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.news_date {
+  font-size: 14px;
+}

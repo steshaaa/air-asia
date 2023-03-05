@@ -1,0 +1,31 @@
+.footer__container {
+  height: 92.64px;
+  max-width: 1141px;
+  width: 100%;
+  vertical-align: middle;
+  margin-top: 53px;
+  margin-bottom: 57px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.menu,
+.social,
+.contacts__call,
+.contacts__phone {
+  display: inline-block;
+}
+.social__item {
+  display: inline-block;
+
+  vertical-align: middle;
+}
+.social__item:first-child {
+  margin-left: 240px;
+}
+
+.contacts__call {
+  display: block;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: end;
+}
