@@ -1,0 +1,55 @@
+.title__news {
+  margin-top: 127px;
+  margin-bottom: 51px;
+}
+.news__item {
+  display: inline-block;
+  width: 557px;
+  height: 394px;
+  background: url(/img/plain.png);
+  vertical-align: top;
+}
+
+.news__item:nth-child(2) {
+  background-image: url(/img/Surfer.png);
+  padding: 225px 0 0 30px;
+  margin-left: 20px;
+}
+.news__content {
+  padding: 225px 0 0 30px;
+}
+
+.paginator__display,
+.paginator__list,
+.paginator__item {
+  display: inline;
+}
+.paginator__item {
+  margin-right: 24px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+}
+.paginator__display {
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 37px;
+}
+
+.paginator {
+  margin-top: 53px;
+  text-align: center;
+  height: 53px;
+}
+.paginator__item:hover {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+  line-height: 30px;
+  color: #f5170e;
+  font-weight: 700;
+  font-size: 16px;
+}
