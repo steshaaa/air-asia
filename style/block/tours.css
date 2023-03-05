@@ -51,7 +51,7 @@ h1 {
   margin-top: 246px;
 }
 .title--icon:after {
-  content: url(/img/flame.png);
+  content: url(/../img/flame.png);
   margin: 3px;
 }
 .tours__feature-icon,
