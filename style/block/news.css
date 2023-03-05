@@ -6,12 +6,12 @@
   display: inline-block;
   width: 557px;
   height: 394px;
-  background: url(/img/plain.png);
+  background: url(/../img/plain.png);
   vertical-align: top;
 }
 
 .news__item:nth-child(2) {
-  background-image: url(/img/Surfer.png);
+  background-image: url(/../img/Surfer.png);
   padding: 225px 0 0 30px;
   margin-left: 20px;
 }
