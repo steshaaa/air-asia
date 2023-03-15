@@ -15,29 +15,8 @@ body {
   margin: 0;
 }
 
-.button {
-  border: 0;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 55px;
-  background: #f5170e;
-  border-radius: 35px;
-  display: inline-block;
-  width: 168px;
-  height: 55px;
-  text-align: center;
-}
-
 * {
   box-sizing: border-box;
-}
-
-.logo,
-.menu,
-.contacts,
-.menu__item {
-  display: inline-block;
 }
 
 ul {
@@ -80,10 +59,10 @@ img {
   max-height: 100%;
 }
 .wrapper__main {
-  background: url(/air-asia/img/1.png), url(/air-asia/img/2.png);
+  background: url(/img/1.png), url(/img/2.png);
   background-position: top center, bottom center;
   background-repeat: no-repeat;
-  min-height: 1920px;
+  min-height: 100%;
 }
 
 .wrapper {
@@ -101,6 +80,21 @@ img {
   height: 100%;
   max-width: 1141px;
 }
+
+.button {
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 55px;
+  background: #f5170e;
+  border-radius: 35px;
+  display: inline-block;
+  width: 168px;
+  height: 55px;
+  text-align: center;
+}
+
 .button--light {
   border: 1px solid #f5170e;
   cursor: pointer;

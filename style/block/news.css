@@ -1,55 +1,34 @@
 .title__news {
-  margin-top: 127px;
   margin-bottom: 51px;
 }
+
+.news__list {
+  display: flex;
+  justify-content: space-between;
+}
 .news__item {
-  display: inline-block;
-  width: 557px;
-  height: 394px;
-  background: url(/air-asia/img/plain.png);
-  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 2 - 25px);
+  min-width: 557px;
+  min-height: 394px;
+  background-image: url(/img/plain.png);
 }
 
 .news__item:nth-child(2) {
-  background-image: url(/air-asia/img/Surfer.png);
-  padding: 225px 0 0 30px;
-  margin-left: 20px;
+  background-image: url(/img/Surfer.png);
 }
 .news__content {
-  padding: 225px 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 29px;
+  width: 100%;
 }
 
-.paginator__display,
-.paginator__list,
-.paginator__item {
-  display: inline;
-}
-.paginator__item {
-  margin-right: 24px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
-  text-align: center;
-}
-.paginator__display {
-  font-weight: 400;
-  font-size: 16px;
-  margin-right: 37px;
-}
+.news_date {
+  font-size: 14px;
+  margin-top: 257px;
+  margin-bottom: 78px;
 
-.paginator {
-  margin-top: 53px;
-  text-align: center;
-  height: 53px;
-}
-.paginator__item:hover {
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: #fff;
-  line-height: 30px;
-  color: #f5170e;
-  font-weight: 700;
-  font-size: 16px;
+  margin-bottom: 12.5px;
 }

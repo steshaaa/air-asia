@@ -1,0 +1,20 @@
+.hello__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 333px;
+  margin-bottom: 246px;
+}
+
+.hello__title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  width: 45%;
+}
+
+.hello__text {
+  font-weight: 400;
+  font-size: 18px;
+}
