@@ -1,6 +1,13 @@
 @import url(./block/base.css);
+
 @import url(./block/header.css);
 @import url(./block/about.css);
 @import url(./block/tours.css);
 @import url(./block/footer.css);
 @import url(./block/news.css);
+@import url(./block/paginator.css);
+@import url(./block/hello.css);
+@import url(./block/top-line.css);
+@import url(./block/breadcrumbs.css);
+@import url(./block/services.css);
+@import url(./block/partners.css);
