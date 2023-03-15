@@ -40,7 +40,7 @@
 }
 
 .tours__header--icon:after {
-  content: url(./img/flame.png);
+  content: url(/../img/flame.png);
   margin: 12px;
 }
 
