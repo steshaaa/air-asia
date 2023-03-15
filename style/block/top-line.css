@@ -1,7 +1,7 @@
 .top-line {
   display: flex;
   flex-direction: column;
-  background-image: url(/img/top-line.png);
+  background-image: url(/air-asia/img/top-line.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
