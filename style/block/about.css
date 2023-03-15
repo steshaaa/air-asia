@@ -12,7 +12,7 @@
   max-width: 785px;
   margin-left: -136px;
   height: 455px;
-  background-image: url(/img/mountains.png);
+  background-image: url(/air-asia/img/mountains.png);
   border-radius: 5px;
 }
 .about__container::before {
@@ -21,7 +21,7 @@
   max-width: 490px;
   height: 505px;
   width: 100%;
-  background: url(../../img/gates.png) center center / cover no-repeat;
+  background: url(/air-asia/img/gates.png) center center / cover no-repeat;
 }
 .about__text {
   font-weight: 400;
