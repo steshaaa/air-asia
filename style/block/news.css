@@ -12,11 +12,11 @@
   width: calc(100% / 2 - 25px);
   min-width: 557px;
   min-height: 394px;
-  background-image: url(/../img/plain.png);
+  background-image: url(../../img/plain.png);
 }
 
 .news__item:nth-child(2) {
-  background-image: url(/../img/Surfer.png);
+  background-image: url(../../img/Surfer.png);
 }
 .news__content {
   display: flex;
