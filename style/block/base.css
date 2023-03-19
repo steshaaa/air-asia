@@ -46,6 +46,7 @@ p {
 
 button {
   cursor: pointer;
+  color: #fff;
 }
 a {
   color: inherit;
@@ -108,4 +109,47 @@ img {
   height: 55px;
   text-align: center;
   color: #f5170e;
+}
+.button--back {
+  background: #8e8e8e;
+}
+.button--back:hover {
+  background: #2b2b2b;
+}
+.dropdown {
+  position: relative;
+}
+.work {
+  position: absolute;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  padding-top: 15px;
+  color: #000;
+  font-style: normal;
+  width: 160px;
+  height: 80px;
+  background: #cdd1d2;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  border-radius: 5px;
+  display: none;
+  right: 0;
+}
+.dropdown:hover .work {
+  display: block;
+}
+.work::before {
+  position: absolute;
+  content: "";
+  border: 20px solid transparent;
+  width: 0px;
+  height: 0px;
+  border-bottom-color: #cdd1d2;
+  top: -26px;
+}
+.work__time {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 21px;
 }

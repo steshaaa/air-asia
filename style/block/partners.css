@@ -1,19 +1,20 @@
-.partners {
+.inner-section {
   display: flex;
   color: #000;
   background: #f4f5f5;
 }
-.partners__container {
+.partners {
   padding-top: 88px;
   padding-bottom: 44px;
 }
-.partners__title {
+.inner-section__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 65px;
-  margin-bottom: 80px;
+  margin-bottom: 65px;
 }
 .partners__list {
+  padding-top: 15px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

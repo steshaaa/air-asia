@@ -16,6 +16,10 @@
 }
 .social__item {
   margin-right: 10px;
+  filter: brightness(40%);
+}
+.social__item:hover {
+  filter: brightness(100%);
 }
 .free_call {
   color: #9a9a9a;
