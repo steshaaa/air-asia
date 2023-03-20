@@ -94,6 +94,7 @@ img {
   width: 168px;
   height: 55px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .button--light {
@@ -110,10 +111,10 @@ img {
   text-align: center;
   color: #f5170e;
 }
-.button--back {
+.button--black {
   background: #8e8e8e;
 }
-.button--back:hover {
+.button--black:hover {
   background: #2b2b2b;
 }
 .dropdown {
@@ -131,13 +132,15 @@ img {
   height: 80px;
   background: #cdd1d2;
   mix-blend-mode: normal;
-  opacity: 0.8;
+  opacity: 0;
   border-radius: 5px;
-  display: none;
   right: 0;
+  z-index: -10;
+  transition: 0.4s;
 }
 .dropdown:hover .work {
-  display: block;
+  opacity: 0.8;
+  z-index: 1;
 }
 .work::before {
   position: absolute;

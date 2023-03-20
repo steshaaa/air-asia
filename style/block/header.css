@@ -43,9 +43,13 @@
   font-size: 14px;
   margin-right: 54px;
 }
+.menu__link--active {
+  color: #da0100;
+}
 .menu__item:hover {
   color: #da0100;
 }
+
 .menu__item:last-child {
   margin-right: 0;
 }
