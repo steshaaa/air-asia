@@ -7,11 +7,11 @@
   margin-right: 28px;
   background: #ffffff;
   border-radius: 5px;
+  border: 1px solid transparent;
   padding: 20px 30px;
   font-size: 18px;
   line-height: 25px;
   outline: none;
-  border: 1xp solid #fff ;
 }
 .form__input::placeholder {
   color: #666;
