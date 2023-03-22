@@ -11,7 +11,7 @@
   font-size: 18px;
   line-height: 25px;
   outline: none;
-  border: 1xp solid transparent ;
+  border: 1xp solid #fff ;
 }
 .form__input::placeholder {
   color: #666;
